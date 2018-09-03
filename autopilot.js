@@ -19,11 +19,11 @@ function pickUpPassenger(car) {
 }
 
 function getDestination(car) {
-  if (car.city == 'Toronto') {
+  if (car.city === 'Toronto') {
     return 'Mississauga';
-  } else if (car.city == 'Mississauga') {
+  } else if (car.city === 'Mississauga') {
     return 'London';
-  } else if (car.city == 'London') {
+  } else if (car.city === 'London') {
     return 'Toronto';
   }
 }
